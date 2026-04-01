@@ -37,10 +37,11 @@ body {
 
 .content {
   display: flex;
+  flex-direction: column;
   width: 590px;
   padding: 14px 17px;
   background-color: white;
-  min-height: 100vh;
+  min-height: 150vh;
   border-radius: 10px;
 }
 
@@ -126,6 +127,16 @@ p, li {
 p {
   color: #4a4a4a;
 }
+
+.attribution p{ 
+  font-size: 12px; 
+  text-align: center; 
+}
+
+.attribution a { 
+  color: hsl(228, 45%, 44%); 
+}
+    
 
 @media (max-width: 600px) {
   .content {
