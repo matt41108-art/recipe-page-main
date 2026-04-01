@@ -1,0 +1,137 @@
+@font-face {
+  font-family: 'Outfit Thin';
+  src: url('assets/fonts/outfit/Outfit-VariableFont_wght.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Outfit Thin';
+  src: url('assets/fonts/outfit/static/Outfit-Black.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Outfit Thin';
+  src: url('assets/fonts/outfit/static/Outfit-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Outfit Thin';
+  src: url('assets/fonts/outfit/static/Outfit-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Outfit Thin';
+  src: url('assets/fonts/outfit/static/Outfit-Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Young Serif';
+  src: url('assets/fonts/young-serif/YoungSerif-Regular.ttf') format('truetype');
+}
+
+body {
+  background-color: #F5EDE4;
+  display: flex;
+   justify-content: center;
+  align-items: center;
+}
+
+.content {
+  display: flex;
+  width: 590px;
+  padding: 14px 17px;
+  background-color: white;
+  min-height: 100vh;
+  border-radius: 10px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.omelete {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+h1, h2, h3 {
+  font-family: Outfit thin, Arial;
+}
+
+h2 {
+  color: #7A3E2A;
+}
+
+.prep_time {
+  background-color: #F1E6EA;
+  padding: 7px 10px;
+  border-radius: 7px;
+}
+
+.prep_time > h3 {
+  color: #7A3E4D;
+  margin-left: 14px;
+}
+
+hr {
+  border: none;
+  height: 1px;
+  background-color: #ccc; 
+  margin: 20px 0;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nutritional {
+  padding-left: 27px;
+  flex: 1;
+}
+
+.value {
+  padding-right: 100px;
+}
+
+.steps > li{
+  padding-bottom: 10px;
+  color: #4a4a4a;
+}
+
+span {
+  font-weight: bold;
+  color: #4a4a4a;
+}
+
+p, li {
+  font-family: Outfit;
+
+}
+
+.ingredients > ul {
+  color: #4a4a4a;
+}
+
+.value > p {
+  color: #7A3E2A;
+  font-weight: bold;
+}
+
+.prep_time > ul {
+  color: #4a4a4a;
+}
+
+p {
+  color: #4a4a4a;
+}
+
+@media (max-width: 600px) {
+  .content {
+    width: 100%;
+    padding: 14px 17px;
+    background-color: white;
+    border-radius: 10px;
+}
+}
